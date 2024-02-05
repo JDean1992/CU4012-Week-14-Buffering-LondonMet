@@ -21,5 +21,12 @@ private:
 	
 
 	// Default variables for level class.
-	
+	sf::CircleShape circle;
+	float speed;
+	sf::RectangleShape player;
+	float playerspeed;
+	sf::CircleShape circle1;
+	float circlespeed;
+	float bouncingspeedx;
+	float bouncingspeedy;
 };
